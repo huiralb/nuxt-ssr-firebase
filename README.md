@@ -1,8 +1,6 @@
 # Nuxt.js Universal App with SSR via Firebase Functions and Firebase Hosting
 Host a Nuxt Universal app or site by combining Nuxt.js with Firebase Cloud Functions and Hosting.
-
-[Live Preview](https://nuxtssrfire.firebaseapp.com)
-
+> This is taken from [nuxt-ssr-firebase](https://github.com/davidroyer/nuxt-ssr-firebase) with some changes to suit my own environment
 ---
 
 ## Pre-Setup: Before Installing Any Dependencies
