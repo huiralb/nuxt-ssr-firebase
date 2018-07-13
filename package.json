@@ -1,5 +1,5 @@
 {
-  "name": "Nuxt-SSR-Firebase",
+  "name": "nuxt-ssr-firebase",
   "version": "0.1.0",
   "description": "Host Nuxt.js SSR app on Firebase Cloud Functions with Firebase Dynamic Hosting.",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "copyassets": "yarn copydist && yarn copystatic",
     "copydist": "cp -R prod/server/nuxt/dist prod/client/assets",
     "copystatic": "cp -R src/static/ prod/client",
-    "clean": "rimraf prod/client/assets/*",
+    "clean": "rm -R prod/client/assets",
     "build:nuxt": "cd \"src\" && yarn build"
   },
   "devDependencies": {
