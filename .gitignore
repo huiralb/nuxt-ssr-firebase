@@ -3,6 +3,7 @@
 backups
 prod/client/assets/
 prod/server/nuxt/
+functions/
 .firebaserc
 
 .DS_Store

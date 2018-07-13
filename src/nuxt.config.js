@@ -49,7 +49,7 @@ module.exports = {
    */
   buildDir: '../prod/server/nuxt',
   build: {
-    publicPath: '/assets/',
+    publicPath: '/prod/client/',
     extractCSS: true,
     babel: {
       presets: [
